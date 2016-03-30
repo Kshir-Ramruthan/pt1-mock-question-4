@@ -29,3 +29,46 @@ public:
 	{
 	}
 };
+
+class Dog : public Animal{
+	void name()
+	{
+		cout << "Dog" << endl;
+	}
+
+	void does()
+	{
+		cout << "Bark" << endl;
+	}
+};
+
+class Bird : public Animal{
+	void name()
+	{
+		cout << "Bird" << endl;
+	}
+
+	void does()
+	{
+		cout << "Chirp" << endl;
+	}
+};
+
+int main()
+{
+	Dog dogObj;
+	Bird birdObj;
+
+	Animal *ptrDog;
+	Animal *ptrBird;
+
+	ptrDog = &dogObj;
+	ptrBird = &birdObj;
+
+	ptrDog->name();
+	ptrDog->does();
+	ptrBird->name();
+	ptrBird->does();
+
+	return 0;
+}
