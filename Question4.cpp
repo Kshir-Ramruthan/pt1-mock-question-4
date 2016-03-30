@@ -1,8 +1,8 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //                         COMPUTER METHODS 3 PRACTICAL TEST 1 (MOCK)
-// Name:
-// Student No:
-// Date: 
+// Name: Kshir Ramruthan
+// Student No: 214502398
+// Date:
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 // ***** QUESTION 4 ****
@@ -11,3 +11,21 @@
 // 4.2 From class "Animal", derive a concrete class "Bird" and "Dog".  Print appropriate message for
 //     each method.
 // 4.3 Write a driver program which creates an object of each type and demonstrates POLYMORPHISM. 
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+class Animal
+{
+protected:
+
+public:
+	virtual void name()
+	{
+	}
+
+	virtual void does()
+	{
+	}
+};
